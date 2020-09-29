@@ -1,1 +1,47 @@
-style.css
+
+/***body**/
+body{
+    width: 90%;
+    margin: 5%;
+    background-color: #b1b6bb;
+}
+
+/*blockquote*/
+blockquote{  
+    margin: 80px ;
+    border-style: dashed ;
+    padding: 30px;
+    font-size: 150%;
+    background-color: #c7d2c5;
+ 
+}
+
+img{
+    height: 40%;
+    width: 40%;
+}
+
+
+
+p{
+    font-family: serif;
+    padding: 5px;
+    font-size: 30px;
+    color: #696969;
+}
+
+/**links **/
+a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.linkCss:link {
+    color: #696969;
+}
+.linkCss:visited {
+    color: #696969;
+}
+.linkCss:hover {
+    font-size:200%;
+}
