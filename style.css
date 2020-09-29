@@ -4,26 +4,51 @@ body{
     width: 90%;
     margin: 5%;
     background-color: #b1b6bb;
+    background-repeat: no-repeat ;
+    background-image: url(img/cool-backgrounds.jpeg);
+    background-size: 650%;
+}
+
+h2{
+    font-size: 60px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+/***Preamble link****/
+li{
+    font-size: 30px;
+    margin-left: 60%;
+    margin-right: 5%;
+}
+
+/**header**/
+header > h1{
+    background-color: yellow;
+
 }
 
 /*blockquote*/
-blockquote{  
+.agriculteur{  
     margin: 80px ;
     border-style: dashed ;
     padding: 30px;
     font-size: 150%;
     background-color: #c7d2c5;
- 
+    border-left-color: red ;
 }
 
 img{
     height: 40%;
     width: 40%;
+    float: left;
+    margin: 60px;
 }
 
 
 
-p{
+.villageois{
     font-family: serif;
     padding: 5px;
     font-size: 30px;
@@ -35,6 +60,37 @@ a {
     text-decoration: none;
     font-size: 1.3em;
 }
+
+/*************table************/
+table{
+    border-style: solid;
+}
+
+table, td{
+    text-align: center;
+    border: thin solid;
+}
+
+table, th{
+    text-transform: uppercase; 
+    border: thin solid ;
+}
+
+table .good{
+    color: green;
+}
+
+table .bad{
+    color: red;
+}
+
+td.tabGrey{
+    background-color: gray;
+    padding: 10px;
+
+}
+
+/***links footer***/
 
 .linkCss:link {
     color: #696969;
